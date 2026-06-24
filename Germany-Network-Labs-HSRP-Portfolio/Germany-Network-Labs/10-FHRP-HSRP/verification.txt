@@ -1,0 +1,13 @@
+Verification Commands
+
+show standby brief
+show ip route
+show ip interface brief
+
+Tests Performed
+1. Ping 192.168.10.1 from PC1
+2. Verify R1 is Active
+3. Shutdown R1
+4. Verify R2 becomes Active
+5. Restore R1
+6. Verify R1 regains Active role

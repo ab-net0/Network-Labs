@@ -1,0 +1,7 @@
+interface g0/0
+ ip address 192.168.10.2 255.255.255.0
+ standby 1 ip 192.168.10.1
+ standby 1 priority 150
+ standby 1 preempt
+
+ip route 0.0.0.0 0.0.0.0 10.0.12.1
